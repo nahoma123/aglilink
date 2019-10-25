@@ -1,0 +1,87 @@
+.container-fluid .row{
+    margin-right: 0px;
+}
+.topsection{
+    height: 90px !important;
+    background: #333;
+}
+@media(max-width:767px){
+    #search_tag{
+        display: none;
+    }
+    #popmodal{
+            width:400px;
+        }
+}
+.heading_company:hover{
+    font-weight: 550;
+    cursor: pointer;
+}
+#popmodal{
+            width:100%;
+        }
+.search_result_title{ 
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block !important;
+    line-height: 1;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    width: 100% !important;
+    color: #333;
+    text-decoration: none;
+    display: block;
+        margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: auto;
+        margin: 0;
+    font: 14px Roboto,sans-serif;
+    color: #333;
+    height: 100%;
+        
+}
+.search_result_title h3{
+    margin-bottom: 0px !important;
+}
+.search_result_title:after{
+content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    background: #333;
+    transition: .5s;
+}
+.SearchResult-location {
+    line-height: 1;
+        color: #f56a00!important;
+    display: inline-block;
+    margin-bottom: 5px;
+        color: #f8cc0f;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 12px;
+}
+.row li {
+    cursor: pointer;
+}
+.loader{
+    margin: 20px;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0% {transform : rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

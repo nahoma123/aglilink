@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html style='height: 100%;width: 100%' lang="en">
 <head>
-<link href="{{ asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" id="bootstrap-css">
-<script src="{{ asset('bootstrap/js/bootstrap.min.js')}}"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="{{asset('/css/mega_menu.css')}}" rel="stylesheet" id="bootstrap-css">
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <style type="text/css">
 
 	@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
@@ -165,6 +168,7 @@ section .section-title {
 
 </head><link href="{{ asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" id="bootstrap-css">
 <script src="{{ asset('bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 <body style="height: 100%" >
 @yield('content')
 </body>
